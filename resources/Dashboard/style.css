@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    
+      
+}
+ /* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.monitortools {
+    height: 340px;
+    background: url(https://av.ui.cld.dtvops.net/images/banner-image2.jpg) no-repeat 0 0;
+    background-size: cover;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 20px;
+}
