@@ -5,13 +5,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8" />
         <title> FTR One Page </title>
-        <link rel="stylesheet" href="./resources/Dashboard/style.css">
+        <link rel="stylesheet" href="resources\EIN\style.css">
+        <script type="text/javascript" src="resources\EIN\p1.js"></script>    
+
        
     </head>
     <body>
         <div class = "navbar">
            <a href="./">Home</a>
-        </div>
-        <h1> Site Under Construction </h1>
+        </div class='FTR'>
+        <h1> Executive Summary for P1 | P2</h1>
+        
+        <label for="IpSum">Impact Summary:</label>
+        <input size = "200" type='text' id='IpSum' name='IpSum' placeholder ='What is the customer experience | Channel Impacted' >
+        <br>
+        <br> 
+        <label for="TrShot">Troubleshooting Summary:</label>
+        <input size='189' type='text' id='TrShot' name ='TrShot' placeholder='Who is engaged and what is being done to get fixed'>
+        <br>
+        <br> 
+        <label for="STime">Start Time:</label>
+        <input type='text' id='STime' name='STime' placeholder='Enter Date. Time (PT)'>
+        <br> 
+        <br>
+        <label for="ETime">End Time:</label>
+        <input size='21' type='text' id='ETime' name='ETime' placeholder='Enter Date. Time (PT)'>
+        <br>
+        <br>
+        <label for="DTime">Duration Time:</label>
+        <input size='21' type='text' id='DTime' name='DTime' placeholder='Enter Time (HH:MM)'>
+        <br>
+        <br>
+        <label for="CImp">Estimated customer impact:</label>
+        <input size='21' type='text' id='CImp' name ='CImp' placeholder= 'From New Relic Query'>
+        <br>
+        <br>
+        <label for="bridge">Bridge Information:</label>
+        <input size='50' type='text' id='bridge' name ='bridge' placeholder= 'Webex information | Not needed'>
+        <br>
+        <br>
+        <button onclick="copyItems()">Copy Clipboard</button>
+        <br>
+        <textarea type="text" value="" id="output" class="txt-invisible">
+        
     </body>
+
 </html>

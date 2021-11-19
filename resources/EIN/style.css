@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgrey;
-    
+    background: url(https://av.ui.cld.dtvops.net/images/banner-image2.jpg) no-repeat 0 0;
+    background-size: cover;
       
 }
  /* The navigation menu */
@@ -18,4 +18,37 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+
 }
+h1 {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+   padding: 20px 20px;
+}
+
+label {
+ font-family: Arial, Helvetica, sans-serif;
+ color: white;
+ font-weight: bold;
+ padding: 20px; 
+}
+
+button {
+  padding: 10px;
+  text-align: center;
+}
+
+.txt-invisible {
+    border: none;
+    width: 0px;
+    height: 0px;
+    color: transparent;
+}
+
+    .txt-invisible:focus {
+        outline: none;
+    }
