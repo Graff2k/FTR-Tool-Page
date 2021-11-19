@@ -12,7 +12,7 @@ function copyItems() {
     +"Start Time: "+ stime.value +"\n"
     +"End Time: "+ etime.value+ "\n"+
     "Duration: "+ dtime.value +"\n"
-    + "Estimated Time: "+ cimp.value+"\n" 
+    + "Estimated Customer Impact: "+ cimp.value+"\n" 
     + "Bridge Information: " + bridge.value
     
     output.select();
