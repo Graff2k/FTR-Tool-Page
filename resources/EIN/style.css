@@ -52,3 +52,16 @@ button {
     .txt-invisible:focus {
         outline: none;
     }
+h2 {
+  color: white;
+  font-weight: bold;
+}
+ol {
+  color:white;
+  font-weight: bold;
+}
+.btnein {
+  margin: 10px; 
+  padding: 10px;
+  text-align: center;
+}
