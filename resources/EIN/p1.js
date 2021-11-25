@@ -21,7 +21,10 @@ function copyItems() {
     
     
 }
-
+function openstuff() {
+    window.open('./subein/einPro.html');
+    window.open("https://atteg.service-now.com/kb_view.do?sysparm_article=KB0010749")
+}
 
 
 
