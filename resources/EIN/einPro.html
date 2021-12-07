@@ -1,0 +1,35 @@
+<!DOCType html>
+<html>
+    <head>
+        <title>EIN Check List</title>
+        <link rel="stylesheet" href="resources\EIN\ein.css">
+        <script type="text/javascript" src="resources\EIN\p1.js"></script>
+    </head>
+    <body>
+        
+        <div id="myDIV" class= "header">
+            <h1>EIN Check List</h1>
+
+        </div>
+        <ul id="einUL">
+           <li>Create a INC, Only if there is not one</li> 
+           <li>Update Short description on INC ticket </li>
+           <li>Promote to Major Incident</li>
+           <li>Update The Executive</li>
+           <li>Click on View Workbench</li>
+           <li>Click on Communications</li>
+           <li>Click Send on Initial Stakeholder Communication to open Email form</li>
+           <li>Click on View Form  </li>
+           <li>Click on Send </li>
+        </ul>
+        <script>
+            //Add a "checked" symbol when clicking on a list item
+            var list = document.querySelector('ul');
+            list.addEventListener('click', function(ev){
+                if (ev.target.tagName === 'LI'){
+                    ev.target.classList.toggle('checked');
+                }
+            }, false);
+        </script>
+    </body>
+</html>
