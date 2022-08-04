@@ -18,8 +18,8 @@ function copyItems() {
     + "Groups Engaged: " + bridge.value
     
     output.select();
-    document.execCommand("copy");
-    alert('Please use Ctrl+C to copy')
+    navigator.clipboard.writeText( output.value);
+    
     
     
 }

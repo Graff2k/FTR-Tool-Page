@@ -11,12 +11,13 @@ h1 {
     font-weight: bold;
     text-align: center;
      padding: 20px 20px;
-  } 
-
-  button {
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    background: url(https://av.ui.cld.dtvops.net/images/banner-image2.jpg) no-repeat 0 0;
-    color: white
   }
+h2 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;   
+    padding: 20px 20px;
+
+}
