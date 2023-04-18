@@ -16,3 +16,6 @@ function open_win(){
 function open_wind(){
     window.open("https://one.newrelic.com/dashboards/detail/MTU5MDU3NnxWSVp8REFTSEJPQVJEfGRhOjI3NTg0ODI?duration=21600000&state=b1959489-212a-d9b2-3129-997c24dbced0")
 }
+function open_wind2(){
+    window.open("https://one.newrelic.com/dashboards/detail/MTU5MDU3NnxWSVp8REFTSEJPQVJEfGRhOjE5MjQ3OTY?state=29cfde07-dc19-f63c-438e-bc057c77efb9")
+}
