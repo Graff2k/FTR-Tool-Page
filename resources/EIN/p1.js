@@ -25,7 +25,7 @@ function copyItems() {
 }
 function openstuff() {
     window.open('./resources/EIN/einPro.html');
-    window.open("https://atteg.service-now.com/kb_view.do?sysparm_article=KB0010749")
+    window.open("https://directv.service-now.com/kb_view.do?sysparm_article=KB0010749")
 }
 
 
